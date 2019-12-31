@@ -1,0 +1,30 @@
+//Abstracts
+@import "./abstracts/vairable";
+@import "./abstracts/mixins";
+@import "./abstracts/fucntion";
+
+//Base
+@import "./base/reset";
+@import "./base/typography";
+
+//Components
+@import "./components/button";
+@import "./components/crousel";
+@import "./components/slide";
+
+//Layout
+@import "./layout/navigation";
+@import "./layout/grid";
+@import "./layout/sidebar";
+@import "./layout/forms";
+@import "./layout/footer";
+
+//Pages
+@import "./page/home";
+@import "./page/about";
+@import "./page/service";
+@import "./page/testimonial";
+@import "./page/contact";
+
+// Vendor
+@import "./vendor/Javascript";

@@ -1,0 +1,28 @@
+header {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 2px solid #c0c0ff2a;
+}
+header #logo {
+  margin-right: auto;
+  margin-left: 2rem;
+}
+header nav {
+  margin-right: 2rem;
+}
+header ul {
+  margin: 0;
+  list-style-type: none;
+}
+
+header li {
+  display: inline;
+}
+header a {
+  padding: 0.7rem 1.5rem;
+}

@@ -1,0 +1,36 @@
+//cta
+.cta {
+  border: 2px solid #fafafc;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+//full screen btn
+.left-content .fullsreen-btn {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.9rem 2rem;
+  border-radius: 2rem;
+  background-color: #dc5df7;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  &:hover {
+    box-shadow: 0 5px 5px -2px rba(#fafa);
+    transform: translateY(-1px);
+    transition: all 0.5s ease;
+  }
+}
+
+// sevice btn
+.serviceBtn {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+  padding: 0.8rem 2rem;
+  color: #dc5df7;
+  border: 1px solid #dc5df7;
+  border-radius: 2rem;
+}

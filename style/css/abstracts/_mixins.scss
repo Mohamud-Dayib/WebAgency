@@ -1,0 +1,13 @@
+// Flex space-Between layout
+@mixin flexSpaceBtwn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// Flex Center
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

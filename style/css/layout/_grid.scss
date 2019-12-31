@@ -1,0 +1,99 @@
+// full screen header
+.fullscreen-header {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background: $fullscreenBackground;
+  padding: 1rem;
+}
+.right-content,
+.left-content {
+  margin-top: 2rem;
+}
+.right-content img {
+  height: 30rem;
+  border-radius: 5rem;
+}
+.right-content {
+  margin-top: 6rem;
+  flex-basis: 25rem;
+}
+.left-content {
+  margin-top: 10rem;
+  margin-left: 3rem;
+  flex-basis: 25rem;
+}
+//sevice section
+.wrapper {
+  margin: 2rem auto 2rem;
+  width: 85%;
+  text-align: center;
+  .wrapper-header {
+    margin: 1rem auto 3rem;
+    width: 60%;
+  }
+  .inner-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  [class*="service-"] {
+    flex-basis: 17rem;
+    background: #fff;
+    padding: 2.5rem 1.1rem;
+    box-shadow: $allSide-Shadow;
+    border-radius: 0.3rem;
+  }
+  [class*="service-"] img {
+    height: 5rem;
+  }
+}
+// About Section
+.about {
+  margin-top: 5rem;
+  width: 100%;
+  .about-header {
+    text-align: center;
+    margin: 1rem auto 0;
+    width: 50%;
+  }
+  .about-row {
+    @include flexSpaceBtwn;
+  }
+}
+.about-row div {
+  flex: 1;
+}
+.about-row .image-holder {
+  background: #f5eeffdc;
+  padding: 2rem;
+  text-align: center;
+  img {
+    height: 15rem;
+  }
+}
+[class*="left-"] {
+  margin-right: 3rem;
+}
+[class*="right-text"] {
+  margin-left: 2rem;
+  padding-right: 4rem;
+}
+
+.left-1,
+.left-2 {
+  border-radius: 0 11rem 11rem 0;
+}
+.left-text {
+  padding-left: 4rem;
+}
+.right-text-2 {
+  text-align: right;
+  border-radius: 11rem 0rem 0rem 11rem;
+}
+
+.about-row .left-3 {
+  padding: 0 2rem 0 4rem;
+}
