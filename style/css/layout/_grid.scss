@@ -97,3 +97,72 @@
 .about-row .left-3 {
   padding: 0 2rem 0 4rem;
 }
+// Pricing table
+[class*="pricing-"] {
+  flex-basis: 23rem;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  color: $paragraphColor;
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    padding: 1.4rem 0;
+  }
+  span {
+    font-weight: 600;
+  }
+  .price-header {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  a {
+    margin-top: 3rem;
+    text-decoration: none;
+    padding: 0.8rem 2.3rem;
+    color: #9759e0;
+    border: 1px solid #9759e0;
+    border-radius: 2rem;
+    &:hover {
+      background-color: #9759e0;
+      color: #fff;
+      transition: all 0.5s ease;
+    }
+  }
+}
+.pricing-2 {
+  position: relative;
+  overflow: hidden;
+  background: $fullscreenBackground;
+  color: #fff;
+  .popular {
+    position: absolute;
+    background: #fff;
+    color: #9759e0;
+    width: 20rem;
+    left: -30%;
+    bottom: 90%;
+    transform: rotate(-45deg);
+    text-align: center;
+    padding: 0.1rem;
+  }
+  a {
+    border-color: #fff;
+    color: #fff;
+    &:hover {
+      background-color: #fff;
+      color: #9759e0;
+    }
+  }
+}
+.pricing-2 .price-header {
+  color: #fff;
+}
+[class*="pricing-"] .amount {
+  font-size: 1.2rem;
+}

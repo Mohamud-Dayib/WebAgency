@@ -273,4 +273,89 @@ header a {
 .about-row .left-3 {
   padding: 0 2rem 0 4rem;
 }
+
+[class*="pricing-"] {
+  -ms-flex-preferred-size: 23rem;
+      flex-basis: 23rem;
+  background: #fff;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  color: #75758b;
+}
+
+[class*="pricing-"] ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+[class*="pricing-"] li {
+  padding: 1.4rem 0;
+}
+
+[class*="pricing-"] span {
+  font-weight: 600;
+}
+
+[class*="pricing-"] .price-header {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+[class*="pricing-"] a {
+  margin-top: 3rem;
+  text-decoration: none;
+  padding: 0.8rem 2.3rem;
+  color: #9759e0;
+  border: 1px solid #9759e0;
+  border-radius: 2rem;
+}
+
+[class*="pricing-"] a:hover {
+  background-color: #9759e0;
+  color: #fff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.pricing-2 {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(140deg, #4e54c8, #dc5df7);
+  color: #fff;
+}
+
+.pricing-2 .popular {
+  position: absolute;
+  background: #fff;
+  color: #9759e0;
+  width: 20rem;
+  left: -30%;
+  bottom: 90%;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  text-align: center;
+  padding: 0.1rem;
+}
+
+.pricing-2 a {
+  border-color: #fff;
+  color: #fff;
+}
+
+.pricing-2 a:hover {
+  background-color: #fff;
+  color: #9759e0;
+}
+
+.pricing-2 .price-header {
+  color: #fff;
+}
+
+[class*="pricing-"] .amount {
+  font-size: 1.2rem;
+}
 /*# sourceMappingURL=app.css.map */
