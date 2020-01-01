@@ -172,7 +172,7 @@ header a {
 }
 
 .wrapper {
-  margin: 2rem auto 2rem;
+  margin: 3rem auto 2rem;
   width: 85%;
   text-align: center;
 }
@@ -298,6 +298,7 @@ header a {
 
 [class*="pricing-"] span {
   font-weight: 600;
+  color: #9759e0;
 }
 
 [class*="pricing-"] .price-header {
@@ -306,7 +307,7 @@ header a {
 }
 
 [class*="pricing-"] a {
-  margin-top: 3rem;
+  margin-top: s3rem;
   text-decoration: none;
   padding: 0.8rem 2.3rem;
   color: #9759e0;
@@ -325,6 +326,10 @@ header a {
   position: relative;
   overflow: hidden;
   background: linear-gradient(140deg, #4e54c8, #dc5df7);
+  color: #fff;
+}
+
+.pricing-2 span {
   color: #fff;
 }
 
@@ -357,5 +362,32 @@ header a {
 
 [class*="pricing-"] .amount {
   font-size: 1.2rem;
+}
+
+.Projects {
+  margin: 2rem auto 2rem;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 17rem 17rem 17rem 17rem;
+      grid-template-columns: 17rem 17rem 17rem 17rem;
+  -ms-grid-rows: 11rem 11rem 11rem;
+      grid-template-rows: 11rem 11rem 11rem;
+  grid-gap: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Projects div {
+  background: coral;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.Projects img {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
 }
 /*# sourceMappingURL=app.css.map */

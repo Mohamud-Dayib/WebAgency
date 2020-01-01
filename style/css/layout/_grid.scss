@@ -27,7 +27,7 @@
 }
 //sevice section
 .wrapper {
-  margin: 2rem auto 2rem;
+  margin: 3rem auto 2rem;
   width: 85%;
   text-align: center;
   .wrapper-header {
@@ -116,13 +116,14 @@
   }
   span {
     font-weight: 600;
+    color: #9759e0;
   }
   .price-header {
     font-size: 1.5rem;
     font-weight: 600;
   }
   a {
-    margin-top: 3rem;
+    margin-top: s3rem;
     text-decoration: none;
     padding: 0.8rem 2.3rem;
     color: #9759e0;
@@ -140,6 +141,9 @@
   overflow: hidden;
   background: $fullscreenBackground;
   color: #fff;
+  span {
+    color: #fff;
+  }
   .popular {
     position: absolute;
     background: #fff;
@@ -165,4 +169,23 @@
 }
 [class*="pricing-"] .amount {
   font-size: 1.2rem;
+}
+//portfolio section
+.Projects {
+  margin: 2rem auto 2rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 17rem 17rem 17rem 17rem;
+  grid-template-rows: 11rem 11rem 11rem;
+  grid-gap: 1rem;
+  justify-content: center;
+  div {
+    background: coral;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  img {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+  }
 }
