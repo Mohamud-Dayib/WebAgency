@@ -560,8 +560,9 @@ footer {
 
 .scroll-header {
   background-color: #fff;
-  -webkit-box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 5px 5px -2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 5px -2px rgba(0, 0, 0, 0.1);
+  border-bottom: none;
 }
 
 .sroll-logo {

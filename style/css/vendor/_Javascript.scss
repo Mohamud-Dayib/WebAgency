@@ -1,7 +1,8 @@
 //header
 .scroll-header {
   background-color: #fff;
-  box-shadow: $header-shadow;
+  box-shadow: 0 5px 5px -2px rgba(0, 0, 0, 0.1);
+  border-bottom: none;
 }
 .sroll-logo {
   color: #5d55cd;
