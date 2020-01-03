@@ -11,6 +11,9 @@ header {
 header #logo {
   margin-right: auto;
   margin-left: 2rem;
+  a {
+    text-decoration: none;
+  }
 }
 header nav {
   margin-right: 2rem;

@@ -11,20 +11,20 @@
   <body>
     <!--Header-->
     <header>
-      <div id="logo"><span>Web Agency</span></div>
+      <div id="logo"><a href="#home"><span>Web Agency</span></a></div>
       <nav>
-        <ul>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#" class="cta">Contact Us</a></li>
+        <ul id="nav">
+          <li><a href="#service">Service</a></li>
+          <li><a href="#aboutUs">About</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact" class="cta">Contact Us</a></li>
         </ul>
       </nav>
     </header>
     <!--fullscreen Header-->
-    <section class="fullscreen-header">
+    <section class="fullscreen-header" id="home">
       <div class="left-content">
         <h1>Web design and develop website</h1>
         <p>
@@ -39,7 +39,7 @@
       </div>
     </section>
     <!--Services-->
-    <section class="wrapper">
+    <section class="wrapper" id="service">
       <div class="wrapper-header">
         <h1>What We Offer</h1>
         <p>
@@ -84,7 +84,7 @@
       </div>
     </section>
     <!--About-->
-    <section class="about">
+    <section class="about" id="aboutUs">
       <div class="about-header">
         <h1>About Us</h1>
         <p>
@@ -137,7 +137,7 @@
     </section>
     <!--Pricing table-->
     <section class="wrapper">
-      <div class="wrapper-header">
+      <div class="wrapper-header" id="pricing">
         <h1>Pricing</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates id, quia ab, tempora
@@ -183,7 +183,7 @@
       </div>
     </section>
     <!--Portfolio-->
-    <section class="wrapper">
+    <section class="wrapper" id="portfolio">
       <div class="wrapper-header">
         <h1>Our Work</h1>
         <p>
@@ -208,7 +208,7 @@
         </div>
     </section>
     <!--Blog-->
-    <section class="wrapper">
+    <section class="wrapper" id="blog">
       <div class="wrapper-header">
         <h1>Latest News</h1>
         <p>
@@ -261,7 +261,7 @@
       </div>
     </section>
     <!--Contat Form-->
-    <section class="wrapper">
+    <section class="wrapper" id="contact">
       <div class="wrapper-header">
         <h1>Contact Us<h1>
           <p class="contact-text">
@@ -303,6 +303,7 @@
     </section>
     <!--Footer-->
     <footer><span>&copy; copyrigh Web Agency 2019</span></footer>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlcLSc1ZQcs5jKMCQiosgTfsvtc4gR41E&callback=initMap">
     </script>

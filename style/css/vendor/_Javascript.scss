@@ -1,0 +1,19 @@
+//header
+.scroll-header {
+  background-color: #fff;
+  box-shadow: $header-shadow;
+}
+.sroll-logo {
+  color: #5d55cd;
+}
+.scroll-menu {
+  color: $menucolor;
+  &:hover {
+    color: #ad5ae7;
+  }
+}
+
+.scroll-cta {
+  color: #ad5ae7;
+  border: 2px solid #ad5ae7;
+}

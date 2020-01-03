@@ -122,6 +122,10 @@ header #logo {
   margin-left: 2rem;
 }
 
+header #logo a {
+  text-decoration: none;
+}
+
 header nav {
   margin-right: 2rem;
 }
@@ -552,5 +556,28 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.scroll-header {
+  background-color: #fff;
+  -webkit-box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.2);
+}
+
+.sroll-logo {
+  color: #5d55cd;
+}
+
+.scroll-menu {
+  color: #757583;
+}
+
+.scroll-menu:hover {
+  color: #ad5ae7;
+}
+
+.scroll-cta {
+  color: #ad5ae7;
+  border: 2px solid #ad5ae7;
 }
 /*# sourceMappingURL=app.css.map */
