@@ -17,6 +17,12 @@ button {
   border: none;
 }
 
+.contact-text {
+  font-weight: normal;
+  font-family: "Nunito", sans-serif;
+  font-size: 0.95rem;
+}
+
 header span {
   color: #121217;
   font-size: 1.5rem;

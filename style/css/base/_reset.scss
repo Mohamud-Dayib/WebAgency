@@ -14,3 +14,9 @@ button {
   border: none;
 }
 
+// reset paragraph text for contact form section
+.contact-text {
+  font-weight: normal;
+  font-family: $bodyFont-family;
+  font-size: $bodyFont-size;
+}
