@@ -67,7 +67,7 @@
   flex: 1;
 }
 .about-row .image-holder {
-  background: #f5eeffdc;
+  background: rgba(245, 238, 255, 0.863);
   padding: 2rem;
   text-align: center;
   img {
@@ -261,7 +261,7 @@
   span,
   #textarea,
   button {
-    margin-top: 0.8rem;
+    margin-top: 0.6rem;
   }
   span {
     width: 48%;
@@ -272,9 +272,9 @@
   }
   input,
   textarea {
-    border: 1px solid #cccc;
+    border: none;
+    border: 1px solid #ccc;
     border-radius: 0.2rem;
-    box-shadow: $allSide-Shadow;
     &:focus {
       border: 1px solid #67b3ff;
     }
@@ -288,6 +288,7 @@
     background-color: #9759e0;
     font-size: 0.9rem;
     box-shadow: $allSide-Shadow;
+    cursor: pointer;
   }
   textarea {
     padding: 0.5rem;
