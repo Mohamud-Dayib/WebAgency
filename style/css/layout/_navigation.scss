@@ -29,3 +29,61 @@ header li {
 header a {
   padding: 0.7rem 1.5rem;
 }
+.toggle {
+  margin-right: 2rem;
+  display: none;
+}
+.toggle div {
+  height: 3px;
+  width: 30px;
+  background-color: #fff;
+  margin-top: 5px;
+  border-radius: 0.4rem;
+}
+
+// responsive navigation
+@media only screen and (max-width: 950px) {
+  body {
+    overflow-x: hidden;
+  }
+  header {
+    background-color: #fff;
+    border-bottom: none;
+    span {
+      color: #5d55cd;
+    }
+    .toggle {
+      display: inline-block;
+      div {
+        background-color: rgb(88, 88, 88);
+      }
+    }
+  }
+  header nav {
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: $header-shadow;
+    display: none;
+  }
+  header ul {
+    margin: 0;
+    padding: 0;
+  }
+  header li {
+    display: block;
+    padding-top: 1.5rem;
+    text-align: center;
+    width: 100%;
+  }
+  header li a {
+    color: #333;
+  }
+  header li .cta {
+    display: inline-block;
+    margin-bottom: 1rem;
+    border-color: #9b59e1;
+    color: #9b59e1;
+  }
+}

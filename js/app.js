@@ -54,3 +54,11 @@ function back() {
     backscrollIcon.classList.remove("slide-backicon");
   }
 }
+
+
+//Responisve menu show and hide
+const toggle = document.querySelector(".toggle");
+toggle.addEventListener('click', () => {
+  const nav = document.querySelector("nav");
+  nav.classList.toggle("toggle-nav");
+})
