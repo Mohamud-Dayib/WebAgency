@@ -19,3 +19,12 @@
   color: #ad5ae7;
   border: 2px solid #ad5ae7;
 }
+
+//backscroll icon
+.slide-backicon {
+  right: 1%;
+  transition: all 0.5s ease;
+  &:hover{
+    background-color: #CB5CF1;
+  }
+}

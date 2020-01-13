@@ -37,3 +37,20 @@ var scroll = new SmoothScroll('header a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true
 });
+
+var scroll = new SmoothScroll('body a[href*="#"]', {
+  speed: 1000,
+  speedAsDuration: true
+});
+
+window.addEventListener("scroll", back);
+function back() {
+  const backscrollIcon = document.querySelector(".backscroll");
+  const backscrollappear = window.scrollY;
+  const backscrollHeight = 1000;
+  if (backscrollappear > backscrollHeight) {
+    backscrollIcon.classList.add("slide-backicon");
+  } else {
+    backscrollIcon.classList.remove("slide-backicon");
+  }
+}
