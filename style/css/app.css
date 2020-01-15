@@ -174,15 +174,18 @@ header a {
     background-color: #585858;
   }
   header nav {
+    overflow: hidden;
     position: absolute;
     top: 70px;
     right: 0;
     left: 0;
+    max-height: 0;
     width: 100%;
     background-color: #fff;
     -webkit-box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.2);
             box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.2);
-    display: none;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
   }
   header ul {
     margin: 0;
@@ -202,6 +205,17 @@ header a {
     margin-bottom: 1rem;
     border-color: #9b59e1;
     color: #9b59e1;
+  }
+  .line-1 {
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  .line-2 {
+    display: block;
+  }
+  .line-3 {
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
   }
 }
 
@@ -672,8 +686,26 @@ footer {
 }
 
 .toggle-nav {
-  display: block;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  max-height: 400px;
+}
+
+.rotate-lineone {
+  -webkit-transform: rotate(45deg) translateY(6px);
+          transform: rotate(45deg) translateY(6px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.disapear-line {
+  display: none;
+}
+
+.rotate-lineThree {
+  -webkit-transform: rotate(-45deg) translateY(-6px);
+          transform: rotate(-45deg) translateY(-6px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 /*# sourceMappingURL=app.css.map */

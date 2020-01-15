@@ -31,6 +31,19 @@
 
 //show nav bar
 .toggle-nav {
-  display: block;
   transition: all 0.5s ease;
+  max-height: 400px;
+}
+
+//toggle-line
+.rotate-lineone {
+  transform: rotate(45deg) translateY(6px);
+  transition: all 0.2s ease-in-out;
+}
+.disapear-line {
+  display: none;
+}
+.rotate-lineThree {
+  transform: rotate(-45deg) translateY(-6px);
+  transition: all 0.2s ease-in-out;
 }

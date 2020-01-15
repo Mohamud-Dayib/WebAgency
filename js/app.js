@@ -55,10 +55,15 @@ function back() {
   }
 }
 
-
 //Responisve menu show and hide
 const toggle = document.querySelector(".toggle");
-toggle.addEventListener('click', () => {
+toggle.addEventListener("click", () => {
   const nav = document.querySelector("nav");
+  const lineOne = document.querySelector(".line-1");
+  const lineTwo = document.querySelector(".line-2");
+  const lineThree = document.querySelector(".line-3");
   nav.classList.toggle("toggle-nav");
-})
+  lineOne.classList.toggle("rotate-lineone");
+  lineTwo.classList.toggle("disapear-line");
+  lineThree.classList.toggle("rotate-lineThree");
+});
