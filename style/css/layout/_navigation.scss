@@ -41,8 +41,8 @@ header a {
   border-radius: 0.4rem;
 }
 
-// responsive navigation
-@media only screen and (max-width: 950px) {
+// Tablet compatability screen
+@media only screen and (max-width: 1024px) {
   body {
     overflow-x: hidden;
   }
@@ -99,5 +99,60 @@ header a {
   }
   .line-3 {
     transition: all 0.1s ease-in-out;
+  }
+  //Fullscreen header
+  .right-content {
+    display: none;
+  }
+  .fullscreen-header {
+    text-align: center;
+  }
+  //service Section
+  #service .inner-wrapper {
+    flex-wrap: wrap;
+    [class*="service-"] {
+      margin-top: 2rem;
+      flex-basis: 20rem;
+    }
+  }
+
+  //About section
+
+  .about-row .image-holder img {
+    width: 15rem;
+  }
+
+  // pricing
+  #price .inner-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    [class*="pricing-"] {
+      margin-top: 1rem;
+      flex-basis: 80%;
+    }
+  }
+  //portfolio
+  #porfolio {
+    grid-template-columns: 18rem 18rem;
+    grid-template-rows: 12rem 12rem 12rem 12rem 12rem 12rem;
+  }
+  //Blog
+  #blog .inner-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    [class*="post-"] {
+      margin: 2rem 1rem 0 1rem;
+      flex-basis: 18rem;
+    }
+  }
+
+  //contact us
+  #contact .inner-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    .contact-info,
+    form {
+      width: 90%;
+    }
   }
 }

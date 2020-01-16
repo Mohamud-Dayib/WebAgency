@@ -156,7 +156,7 @@ header a {
   border-radius: 0.4rem;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1024px) {
   body {
     overflow-x: hidden;
   }
@@ -216,6 +216,67 @@ header a {
   .line-3 {
     -webkit-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
+  }
+  .right-content {
+    display: none;
+  }
+  .fullscreen-header {
+    text-align: center;
+  }
+  #service .inner-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #service .inner-wrapper [class*="service-"] {
+    margin-top: 2rem;
+    -ms-flex-preferred-size: 20rem;
+        flex-basis: 20rem;
+  }
+  .about-row .image-holder img {
+    width: 15rem;
+  }
+  #price .inner-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #price .inner-wrapper [class*="pricing-"] {
+    margin-top: 1rem;
+    -ms-flex-preferred-size: 80%;
+        flex-basis: 80%;
+  }
+  #porfolio {
+    -ms-grid-columns: 18rem 18rem;
+        grid-template-columns: 18rem 18rem;
+    -ms-grid-rows: 12rem 12rem 12rem 12rem 12rem 12rem;
+        grid-template-rows: 12rem 12rem 12rem 12rem 12rem 12rem;
+  }
+  #blog .inner-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #blog .inner-wrapper [class*="post-"] {
+    margin: 2rem 1rem 0 1rem;
+    -ms-flex-preferred-size: 18rem;
+        flex-basis: 18rem;
+  }
+  #contact .inner-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #contact .inner-wrapper .contact-info,
+  #contact .inner-wrapper form {
+    width: 90%;
   }
 }
 
@@ -466,7 +527,6 @@ header a {
 }
 
 .Projects div {
-  background: coral;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
