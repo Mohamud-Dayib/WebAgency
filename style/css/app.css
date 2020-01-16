@@ -255,6 +255,7 @@ header a {
     bottom: 85%;
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
+    background-color: #fff;
   }
   #porfolio {
     -ms-grid-columns: 18rem 18rem;
