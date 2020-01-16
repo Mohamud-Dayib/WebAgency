@@ -106,12 +106,13 @@ header a {
   }
   .fullscreen-header {
     text-align: center;
+    justify-content: center;
   }
   //service Section
   #service .inner-wrapper {
     flex-wrap: wrap;
     [class*="service-"] {
-      margin-top: 2rem;
+      margin-top: 1rem;
       flex-basis: 20rem;
     }
   }
@@ -127,9 +128,14 @@ header a {
     flex-wrap: wrap;
     justify-content: center;
     [class*="pricing-"] {
-      margin-top: 1rem;
+      margin-top: 3rem;
       flex-basis: 80%;
     }
+  }
+  #price .popular {
+    left: -16%;
+    bottom: 85%;
+    transform: rotate(-45deg);
   }
   //portfolio
   #porfolio {

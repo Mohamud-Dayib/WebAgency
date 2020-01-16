@@ -222,13 +222,16 @@ header a {
   }
   .fullscreen-header {
     text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   #service .inner-wrapper {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
   #service .inner-wrapper [class*="service-"] {
-    margin-top: 2rem;
+    margin-top: 1rem;
     -ms-flex-preferred-size: 20rem;
         flex-basis: 20rem;
   }
@@ -243,9 +246,15 @@ header a {
             justify-content: center;
   }
   #price .inner-wrapper [class*="pricing-"] {
-    margin-top: 1rem;
+    margin-top: 3rem;
     -ms-flex-preferred-size: 80%;
         flex-basis: 80%;
+  }
+  #price .popular {
+    left: -16%;
+    bottom: 85%;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
   }
   #porfolio {
     -ms-grid-columns: 18rem 18rem;
