@@ -708,7 +708,7 @@ footer {
   background-color: #7857d6;
   color: #fff;
   border-radius: 50%;
-  position: fixed;
+  position: fixed !important;
   top: 90%;
   right: -10%;
   -webkit-box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.2);
@@ -742,6 +742,8 @@ footer {
             justify-content: center;
   }
   .about-row {
+    padding-left: 0rem;
+    margin: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -765,8 +767,8 @@ footer {
     background-color: #fff;
   }
   #porfolio {
-    -ms-grid-columns: 19rem;
-        grid-template-columns: 19rem;
+    -ms-grid-columns: 20rem;
+        grid-template-columns: 20rem;
     -ms-grid-rows: 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem;
         grid-template-rows: 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem;
   }
@@ -825,6 +827,7 @@ footer {
   right: 1%;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  z-index: 20;
 }
 
 .slide-backicon:hover {
