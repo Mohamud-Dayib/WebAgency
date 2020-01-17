@@ -324,3 +324,65 @@ footer {
   font-size: 1.5rem;
   padding: 0.2rem;
 }
+
+// Mobile responisve
+@media only screen and (max-width: 667px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  //header
+  header {
+    background-color: #927ad8 !important;
+    .toggle div {
+      background: #fff !important;
+    }
+  }
+  #logo span {
+    color: #fff;
+  }
+  //service
+  #service {
+    width: 100%;
+    .inner-wrapper {
+      justify-content: center;
+    }
+  }
+
+  //About
+  .about-row {
+    flex-direction: column;
+  }
+  // pricing
+  #price .inner-wrapper {
+    [class*="pricing-"] {
+      flex-basis: 20rem;
+    }
+  }
+  #price .popular {
+    left: -35%;
+    bottom: 90%;
+    transform: rotate(-45deg);
+    background-color: #fff;
+  }
+  //porfolio
+  #porfolio {
+    grid-template-columns: 20rem;
+    grid-template-rows: 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem;
+  }
+  //Blog
+  #blog .inner-wrapper {
+    [class*="post-"] {
+      flex-basis: 20rem;
+    }
+  }
+  //contact
+  contact .inner-wrapper {
+    .contact-info,
+    form {
+      width: 95%;
+    }
+    .form-row span {
+      display: block;
+    }
+  }
+}

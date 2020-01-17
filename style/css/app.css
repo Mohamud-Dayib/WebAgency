@@ -720,6 +720,63 @@ footer {
   padding: 0.2rem;
 }
 
+@media only screen and (max-width: 667px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  header {
+    background-color: #927ad8 !important;
+  }
+  header .toggle div {
+    background: #fff !important;
+  }
+  #logo span {
+    color: #fff;
+  }
+  #service {
+    width: 100%;
+  }
+  #service .inner-wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #price .inner-wrapper [class*="pricing-"] {
+    -ms-flex-preferred-size: 20rem;
+        flex-basis: 20rem;
+  }
+  #price .popular {
+    left: -35%;
+    bottom: 90%;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    background-color: #fff;
+  }
+  #porfolio {
+    -ms-grid-columns: 20rem;
+        grid-template-columns: 20rem;
+    -ms-grid-rows: 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem;
+        grid-template-rows: 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem;
+  }
+  #blog .inner-wrapper [class*="post-"] {
+    -ms-flex-preferred-size: 20rem;
+        flex-basis: 20rem;
+  }
+  contact .inner-wrapper .contact-info,
+  contact .inner-wrapper form {
+    width: 95%;
+  }
+  contact .inner-wrapper .form-row span {
+    display: block;
+  }
+}
+
 .scroll-header {
   background-color: #fff;
   -webkit-box-shadow: 0 5px 5px -2px rgba(0, 0, 0, 0.1);
