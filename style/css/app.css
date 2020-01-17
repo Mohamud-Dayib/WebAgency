@@ -710,7 +710,7 @@ footer {
   border-radius: 50%;
   position: fixed;
   top: 90%;
-  right: -5%;
+  right: -10%;
   -webkit-box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.2);
           box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.2);
 }
@@ -747,6 +747,12 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .about-row .image-holder {
+    margin: none;
+  }
+  .about-row .left-text {
+    padding-left: 2rem;
+  }
   #price .inner-wrapper [class*="pricing-"] {
     -ms-flex-preferred-size: 20rem;
         flex-basis: 20rem;
@@ -759,21 +765,34 @@ footer {
     background-color: #fff;
   }
   #porfolio {
-    -ms-grid-columns: 20rem;
-        grid-template-columns: 20rem;
-    -ms-grid-rows: 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem;
-        grid-template-rows: 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem;
+    -ms-grid-columns: 19rem;
+        grid-template-columns: 19rem;
+    -ms-grid-rows: 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem;
+        grid-template-rows: 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem;
   }
   #blog .inner-wrapper [class*="post-"] {
-    -ms-flex-preferred-size: 20rem;
-        flex-basis: 20rem;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin: 0;
+    margin-top: 1rem;
   }
-  contact .inner-wrapper .contact-info,
-  contact .inner-wrapper form {
-    width: 95%;
+  #contact .inner-wrapper .contact-info,
+  #contact .inner-wrapper form {
+    width: 100%;
+    padding-left: 0;
   }
-  contact .inner-wrapper .form-row span {
-    display: block;
+  .inner-wrapper form .form-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .inner-wrapper form .form-row span {
+    width: 100%;
+  }
+  .inner-wrapper form button {
+    width: 100%;
+    outline: none;
   }
 }
 

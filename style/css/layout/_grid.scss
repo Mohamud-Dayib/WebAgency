@@ -317,7 +317,7 @@ footer {
   border-radius: 50%;
   position: fixed;
   top: 90%;
-  right: -5%;
+  right: -10%;
   box-shadow: $header-shadow;
 }
 .backscroll i {
@@ -351,7 +351,14 @@ footer {
   //About
   .about-row {
     flex-direction: column;
+    .image-holder {
+      margin: none;
+    }
+    .left-text {
+      padding-left: 2rem;
+    }
   }
+
   // pricing
   #price .inner-wrapper {
     [class*="pricing-"] {
@@ -366,23 +373,34 @@ footer {
   }
   //porfolio
   #porfolio {
-    grid-template-columns: 20rem;
-    grid-template-rows: 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem;
+    grid-template-columns: 19rem;
+    grid-template-rows: 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem 13rem;
   }
   //Blog
   #blog .inner-wrapper {
     [class*="post-"] {
-      flex-basis: 20rem;
+      flex-basis: 100%;
+      margin: 0;
+      margin-top: 1rem;
     }
   }
+
   //contact
-  contact .inner-wrapper {
+  #contact .inner-wrapper {
     .contact-info,
     form {
-      width: 95%;
+      width: 100%;
+      padding-left: 0;
     }
-    .form-row span {
-      display: block;
+  }
+  .inner-wrapper form .form-row {
+    flex-direction: column;
+    span {
+      width: 100%;
     }
+  }
+  .inner-wrapper form button {
+    width: 100%;
+    outline: none;
   }
 }
