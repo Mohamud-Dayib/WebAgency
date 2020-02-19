@@ -74,7 +74,8 @@ p {
   margin-top: 1.5rem;
   padding: 0.9rem 2rem;
   border-radius: 2rem;
-  background-color: #dc5df7;
+  border: 1.3px solid #ffff;
+  background-color: transparent;
   font-size: 1rem;
   color: #fff;
   cursor: pointer;
@@ -203,8 +204,8 @@ header a {
   header li .cta {
     display: inline-block;
     margin-bottom: 1rem;
-    border-color: #9b59e1;
-    color: #9b59e1;
+    border-color: #35E97E;
+    color: #35E97E;
   }
   .line-1 {
     -webkit-transition: all 0.1s ease-in-out;
@@ -301,8 +302,8 @@ header a {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  background: -webkit-gradient(linear, left top, right top, from(#9d50bb), to(#6e48aa));
-  background: linear-gradient(to right, #9d50bb, #6e48aa);
+  background: -webkit-gradient(linear, left top, right top, from(#11998e), to(#38ef7d));
+  background: linear-gradient(to right, #11998e, #38ef7d);
   padding: 1rem;
 }
 
@@ -396,7 +397,7 @@ header a {
 }
 
 .about-row .image-holder {
-  background: rgba(245, 238, 255, 0.863);
+  background: rgba(215, 255, 225, 0.664);
   padding: 2rem;
   text-align: center;
 }
@@ -456,7 +457,7 @@ header a {
 
 [class*="pricing-"] span {
   font-weight: 600;
-  color: #9759e0;
+  color: #35e97e;
 }
 
 [class*="pricing-"] .price-header {
@@ -468,13 +469,13 @@ header a {
   margin-top: s3rem;
   text-decoration: none;
   padding: 0.8rem 2.3rem;
-  color: #9759e0;
-  border: 1px solid #9759e0;
+  color: #35e97e;
+  border: 1px solid #35e97e;
   border-radius: 2rem;
 }
 
 [class*="pricing-"] a:hover {
-  background-color: #9759e0;
+  background-color: #35e97e;
   color: #fff;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -483,8 +484,8 @@ header a {
 .pricing-2 {
   position: relative;
   overflow: hidden;
-  background: -webkit-gradient(linear, left top, right top, from(#9d50bb), to(#6e48aa));
-  background: linear-gradient(to right, #9d50bb, #6e48aa);
+  background: -webkit-gradient(linear, left top, right top, from(#11998e), to(#38ef7d));
+  background: linear-gradient(to right, #11998e, #38ef7d);
   color: #fff;
 }
 
@@ -495,7 +496,7 @@ header a {
 .pricing-2 .popular {
   position: absolute;
   background: #fff;
-  color: #9759e0;
+  color: #00b86b;
   width: 20rem;
   left: -30%;
   bottom: 90%;
@@ -512,7 +513,7 @@ header a {
 
 .pricing-2 a:hover {
   background-color: #fff;
-  color: #9759e0;
+  color: #35e97e;
 }
 
 .pricing-2 .price-header {
@@ -580,13 +581,13 @@ header a {
   margin-bottom: 1rem;
   text-decoration: none;
   padding: 0.8rem 2.3rem;
-  color: #9759e0;
-  border: 1px solid #9759e0;
+  color: #35e97e;
+  border: 1px solid #35e97e;
   border-radius: 2rem;
 }
 
 [class*="post-"] a:hover {
-  background-color: #9759e0;
+  background-color: #35e97e;
   color: #fff;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -666,10 +667,10 @@ header a {
 .inner-wrapper form button {
   padding: 0.8rem 2.3rem;
   border: none;
-  border: 1px solid #b687ec;
+  border: 1px solid #35e97e;
   border-radius: 2rem;
   color: #fff;
-  background-color: #9759e0;
+  background-color: #35e97e;
   font-size: 0.9rem;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -707,7 +708,7 @@ footer {
 }
 
 .backscroll {
-  background-color: #7857d6;
+  background-color: #23c286;
   color: #fff;
   border-radius: 50%;
   position: fixed !important;
@@ -727,7 +728,8 @@ footer {
     overflow-x: hidden !important;
   }
   header {
-    background-color: #927ad8 !important;
+    background: -webkit-gradient(linear, left top, right top, from(#11998e), to(#38ef7d)) !important;
+    background: linear-gradient(to right, #11998e, #38ef7d) !important;
   }
   header .toggle div {
     background: #fff !important;
@@ -809,7 +811,7 @@ footer {
 }
 
 .sroll-logo {
-  color: #8b4db5;
+  color: #24c286;
 }
 
 .scroll-menu {
@@ -817,12 +819,12 @@ footer {
 }
 
 .scroll-menu:hover {
-  color: #8b4db5;
+  color: #24c286;
 }
 
 .scroll-cta {
-  color: #8b4db5;
-  border: 2px solid #8b4db5;
+  color: #24c286;
+  border: 2px solid #24c286;
 }
 
 .slide-backicon {
@@ -833,7 +835,7 @@ footer {
 }
 
 .slide-backicon:hover {
-  background-color: #cb5cf1;
+  background-color: #35E87E;
 }
 
 .toggle-nav {
