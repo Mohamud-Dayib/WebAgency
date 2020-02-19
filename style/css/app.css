@@ -301,7 +301,8 @@ header a {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  background: linear-gradient(140deg, #4e54c8, #dc5df7);
+  background: -webkit-gradient(linear, left top, right top, from(#9d50bb), to(#6e48aa));
+  background: linear-gradient(to right, #9d50bb, #6e48aa);
   padding: 1rem;
 }
 
@@ -482,7 +483,8 @@ header a {
 .pricing-2 {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(140deg, #4e54c8, #dc5df7);
+  background: -webkit-gradient(linear, left top, right top, from(#9d50bb), to(#6e48aa));
+  background: linear-gradient(to right, #9d50bb, #6e48aa);
   color: #fff;
 }
 
@@ -807,7 +809,7 @@ footer {
 }
 
 .sroll-logo {
-  color: #5d55cd;
+  color: #8b4db5;
 }
 
 .scroll-menu {
@@ -815,12 +817,12 @@ footer {
 }
 
 .scroll-menu:hover {
-  color: #ad5ae7;
+  color: #8b4db5;
 }
 
 .scroll-cta {
-  color: #ad5ae7;
-  border: 2px solid #ad5ae7;
+  color: #8b4db5;
+  border: 2px solid #8b4db5;
 }
 
 .slide-backicon {
